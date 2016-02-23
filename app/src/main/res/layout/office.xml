@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/Monday"
+        android:layout_below="@+id/weekMenu"
+        android:layout_alignLeft="@+id/Wednesday"
+        android:layout_alignStart="@+id/Wednesday"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/Tuesday"
+        android:layout_below="@+id/Monday"
+        android:layout_alignLeft="@+id/Monday"
+        android:layout_alignStart="@+id/Monday"
+        android:layout_marginTop="54dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/Wednesday"
+        android:layout_below="@+id/Tuesday"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/Thursday"
+        android:layout_below="@+id/Wednesday"
+        android:layout_alignLeft="@+id/Wednesday"
+        android:layout_alignStart="@+id/Wednesday"
+        android:layout_marginTop="48dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/Friday"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/Thursday"
+        android:layout_alignLeft="@+id/Thursday"
+        android:layout_alignStart="@+id/Thursday"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weekMenu"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39dp"
+        android:entries="@array/Weeks"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Hours to work off :"
+        android:id="@+id/totalHours"
+        android:layout_below="@+id/Friday"
+        android:layout_alignLeft="@+id/Friday"
+        android:layout_alignStart="@+id/Friday"
+        android:layout_marginTop="28dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+</RelativeLayout>
